@@ -1,20 +1,18 @@
 <template>
-  <div class="box">
-    <div class="swiper-container" ref="swiperContainer">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">
-          <p
-            class="ani"
-            swiper-animate-effect="rotateIn"
-            swiper-animate-duration="0.5s"
-            swiper-animate-delay="0.3s"
-          >
-            内容
-          </p>
-        </div>
-        <div class="swiper-slide">Slide 3</div>
+  <div class="swiper-container" ref="swiperContainer">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">
+        <p
+          class="ani"
+          swiper-animate-effect="rotateIn"
+          swiper-animate-duration="0.5s"
+          swiper-animate-delay="0.3s"
+        >
+          内容
+        </p>
       </div>
+      <div class="swiper-slide">Slide 3</div>
     </div>
   </div>
 </template>
@@ -41,6 +39,6 @@ export default {
 </script>
 <style scoped>
 .swiper-container {
-  height: 100vh;
+  height: 100%;
 }
 </style>
