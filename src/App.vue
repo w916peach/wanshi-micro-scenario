@@ -1,9 +1,17 @@
 <template>
-  <div id="app">Hello App</div>
+  <div id="app">
+    <h1>{{ msg }}</h1>
+  </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      msg: "顽石科教",
+    };
+  },
+};
 </script>
 
 <style scoped>
