@@ -1,24 +1,37 @@
 <template>
   <div class="swiper-container" ref="swiperContainer">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">
-        <p
-          class="ani"
-          swiper-animate-effect="rotateIn"
-          swiper-animate-duration="0.5s"
-          swiper-animate-delay="0.3s"
-        >
-          内容
-        </p>
+      <div
+        class="swiper-slide"
+        v-for="(item, index) in slideDatas"
+        :key="index"
+      >
+        <components :is="item.componentName"></components>
       </div>
-      <div class="swiper-slide">Slide 3</div>
     </div>
   </div>
 </template>
 <script>
 import Swiper from "swiper";
+import SlideOne from "./components/slideOne.vue";
+import SlideTwo from "./components/slideTwo.vue";
 export default {
+  data() {
+    return {
+      slideDatas: [
+        {
+          componentName: "slide-one",
+        },
+        {
+          componentName: "slide-two",
+        },
+      ],
+    };
+  },
+  components: {
+    "slide-one": SlideOne,
+    "slide-two": SlideTwo,
+  },
   mounted() {
     new Swiper(this.$refs.swiperContainer, {
       direction: "vertical", // 垂直切换选项

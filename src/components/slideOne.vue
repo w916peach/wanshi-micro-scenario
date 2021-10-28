@@ -1,0 +1,30 @@
+<template>
+  <div class="slide-one">
+    <div
+      class="ani"
+      swiper-animate-effect="zoomIn"
+      swiper-animate-duration="0.5s"
+      swiper-animate-delay="0s"
+    >
+      <img class="pic" src="../assets/1.jpg" alt="" />
+    </div>
+    <div
+      class="ani"
+      swiper-animate-effect="zoomIn"
+      swiper-animate-duration="0.5s"
+      swiper-animate-delay="0s"
+    >
+      <img class="pic" src="../assets/1.jpg" alt="" />
+    </div>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style scoped>
+.pic {
+  width: 100%;
+}
+</style>
