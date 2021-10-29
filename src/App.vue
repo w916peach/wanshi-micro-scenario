@@ -54,4 +54,7 @@ export default {
 .swiper-container {
   height: 100%;
 }
+.swiper-slide {
+  position: relative;
+}
 </style>

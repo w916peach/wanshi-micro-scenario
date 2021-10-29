@@ -6,15 +6,17 @@
       swiper-animate-duration="0.5s"
       swiper-animate-delay="0s"
     >
-      <img class="pic" src="../assets/img/1.jpg" alt="" />
+      <h1 class="title">顽石科教招生-2021</h1>
     </div>
     <div
       class="ani"
       swiper-animate-effect="zoomIn"
       swiper-animate-duration="0.5s"
-      swiper-animate-delay="0s"
+      swiper-animate-delay="0.5s"
     >
-      <img class="pic" src="../assets/img/1.jpg" alt="" />
+      <div class="img-wrap">
+        <img src="../assets/img/1.jpg" alt="" />
+      </div>
     </div>
   </div>
 </template>
@@ -25,6 +27,15 @@ export default {};
 
 <style scoped>
 .pic {
+  width: 100%;
+}
+.title {
+  text-align: center;
+}
+.img-wrap {
+  padding: 0 10px;
+}
+img {
   width: 100%;
 }
 </style>
