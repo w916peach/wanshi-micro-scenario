@@ -6,7 +6,7 @@
       swiper-animate-duration="0.5s"
       swiper-animate-delay="0s"
     >
-      <img class="pic" src="../assets/1.jpg" alt="" />
+      <img class="pic" src="../assets/img/1.jpg" alt="" />
     </div>
   </div>
 </template>

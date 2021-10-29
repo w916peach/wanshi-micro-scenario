@@ -35,7 +35,7 @@ export default {
   mounted() {
     new Swiper(this.$refs.swiperContainer, {
       direction: "vertical", // 垂直切换选项
-      loop: true, // 循环模式选项
+      loop: false, // 循环模式选项
       on: {
         init: function () {
           window.swiperAnimateCache(this); //隐藏动画元素
