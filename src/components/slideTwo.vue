@@ -7,6 +7,7 @@
       swiper-animate-delay="0s"
     >
       <img class="pic" src="../assets/img/1.jpg" alt="" />
+      <p>开发中........</p>
     </div>
   </div>
 </template>
