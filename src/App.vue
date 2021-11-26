@@ -15,6 +15,7 @@
 import Swiper from "swiper";
 import SlideOne from "./components/slideOne.vue";
 import SlideTwo from "./components/slideTwo.vue";
+import SlideThree from "./components/slideThree.vue";
 export default {
   data() {
     return {
@@ -25,12 +26,16 @@ export default {
         {
           componentName: "slide-two",
         },
+        {
+          componentName: "slide-three",
+        },
       ],
     };
   },
   components: {
     "slide-one": SlideOne,
     "slide-two": SlideTwo,
+    "slide-three": SlideThree,
   },
   mounted() {
     new Swiper(this.$refs.swiperContainer, {

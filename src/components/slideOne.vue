@@ -10,12 +10,7 @@
       <img src="../assets/img/index.png" alt="" />
     </div>
     <!-- 蒙版图片 -->
-    <div
-      class="ani index-bg"
-      swiper-animate-effect="zoomIn"
-      swiper-animate-duration="0.5s"
-      swiper-animate-delay="0s"
-    >
+    <div class="index-bg">
       <img src="../assets/img/index_bg.png" alt="" />
     </div>
     <!-- 文案展示 -->
